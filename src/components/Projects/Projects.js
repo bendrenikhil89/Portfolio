@@ -3,7 +3,7 @@ import Project from './Project/Project';
 
 const Projects = () => {
     return (
-        <div className="projects__container">
+        <div className="projects__container" style={{height:"100%"}}>
             <h1>Projects</h1>
             <Project 
                 cardClass='project__project-card' 

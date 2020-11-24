@@ -4,9 +4,13 @@ import './Navbar.css';
 
 function Navbar() {
     const [click, setClick] = useState(false);
+    const [activeLink, setActiveLink] = useState('Home');
 
     const hamburgerClickHandler = () => setClick(prevClick => !prevClick);
-    const closeMobileMenuHandler = () => setClick(false);
+    const closeMobileMenuHandler = (e) => {
+        setActiveLink(e.target.text);
+        setClick(false);
+    }
 
     return (
         <>
@@ -24,22 +28,22 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'navbar__navmenu navbar__active' : 'navbar__navmenu'}>
                         <li className="navbar__navitem">
-                            <Link to="/" className="navbar__navlinks" onClick={closeMobileMenuHandler}>
+                            <Link to="/" className={activeLink === "Home" ? "navbar__navlinks navbar__active" : "navbar__navlinks"} onClick={closeMobileMenuHandler}>
                                 Home
                             </Link>
                         </li>
                         <li className="navbar__navitem">
-                            <Link to="/portfolio" className="navbar__navlinks" onClick={closeMobileMenuHandler}>
+                            <Link to="/projects" className={activeLink === "Projects" ? "navbar__navlinks navbar__active" : "navbar__navlinks"} onClick={closeMobileMenuHandler}>
                                 Projects
                             </Link>
                         </li>
                         <li className="navbar__navitem">
-                            <Link to="/about" className="navbar__navlinks" onClick={closeMobileMenuHandler}>
+                            <Link to="/about" className={activeLink === "About" ? "navbar__navlinks navbar__active" : "navbar__navlinks"} onClick={closeMobileMenuHandler}>
                                 About
                             </Link>
                         </li>
                         <li className="navbar__navitem">
-                            <Link to="/contact" className="navbar__navlinks" onClick={closeMobileMenuHandler}>
+                            <Link to="/contact" className={activeLink === "Contact" ? "navbar__navlinks navbar__active" : "navbar__navlinks"} onClick={closeMobileMenuHandler}>
                                 Contact
                             </Link>
                         </li>

@@ -12,7 +12,7 @@ function Landing() {
                 <li><a href="https://github.com/bendrenikhil89" className="landing__icon-github" target="_blank">GitHub</a></li>
             </ul>
             <div className="landing__arrow landing__bounce">
-                <Link to="/portfolio"><i className="fas fa-angle-double-down fa-2x"></i></Link>
+                <Link to="/projects"><i className="fas fa-angle-double-down fa-2x"></i></Link>
             </div>
         </div>
     )

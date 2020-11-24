@@ -29,11 +29,14 @@
 }
 
 .contact__form-control{
-    margin: 10px 0px 20px 0px;
-    padding: 10px 10px;
-    border-color: 1px solid #f8f8f8;
-    width: 95%;
-    border: 1px solid #ccc;
+  padding: 10px 10px;
+  width: 100%;
+  border-color: 1px solid #f8f8f8;
+  border: 1px solid #ccc;
+}
+
+.contact__name, .contact__email, .contact__subject, .contact__message{
+    padding: 10px 0px 20px 0px;
 }
 
 .contact__form-control:hover{
@@ -42,7 +45,6 @@
 
 .contact__contact-details > p{
     line-height: 1.5;
-    letter-spacing: 1px;
     padding-bottom: 20px;
 }
 
@@ -64,10 +66,6 @@
     }
     .contact-wrapper{
         padding:15px;
-    }
-
-    .contact__contact-details{
-        padding: 0px 40px 20px 40px;
     }
 }
 
@@ -135,4 +133,30 @@
   .social-buttons .social-icon.github:hover {
     background-color: #ffffff;
     color: #000;
+  }
+
+  .contact__send-message {
+    background: #0563bb;
+    padding: 10px 22px;
+    color: white;
+    border-radius: 5rem;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact__send-message:hover{
+    color:white;
+    background: #3a86ce;
+  }
+
+  .contact__submit{
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact__validation-error{
+    font-size: 0.75rem;
+    color:red;
   }

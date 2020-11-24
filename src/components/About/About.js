@@ -28,14 +28,14 @@ const About = () => {
                                 <li><i className="fas fa-chevron-right"></i> <strong>Birthday:&nbsp;</strong> 1 May 1995</li>
                                 <li><i className="fas fa-chevron-right"></i> <strong>Website:&nbsp;</strong> www.example.com</li>
                                 <li><i className="fas fa-chevron-right"></i> <strong>Phone:&nbsp;</strong> +123 456 7890</li>
-                                <li><i className="fas fa-chevron-right"></i> <strong>City:&nbsp;</strong> City : New York, USA</li>
+                                <li><i className="fas fa-chevron-right"></i> <strong>City:&nbsp;</strong> New York, USA</li>
                                 </ul>
                             </div>
                             <div className="about__col-lg-6">
                                 <ul>
                                 <li><i className="fas fa-chevron-right"></i> <strong>Age:&nbsp;</strong> 30</li>
                                 <li><i className="fas fa-chevron-right"></i> <strong>Degree:&nbsp;</strong> Master</li>
-                                <li><i className="fas fa-chevron-right"></i> <strong>PhEmailone:&nbsp;</strong> email@example.com</li>
+                                <li><i className="fas fa-chevron-right"></i> <strong>Email:&nbsp;</strong> email@example.com</li>
                                 <li><i className="fas fa-chevron-right"></i> <strong>Freelance:&nbsp;</strong> Available</li>
                                 </ul>
                             </div>

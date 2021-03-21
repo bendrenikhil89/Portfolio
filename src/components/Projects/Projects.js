@@ -6,7 +6,7 @@ const Projects = () => {
         <div className="projects__container" style={{height:"100%"}}>
             <h1>Projects</h1>
             <Project 
-                cardClass='project__project-card' 
+                cardClass='project__project-card project__left' 
                 projectImgURL='https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg' 
                 techNameArr={['HTML5', 'CSS3', 'React']} 
                 projectTitle="Project Title 1" 
@@ -14,7 +14,7 @@ const Projects = () => {
                 projectDetails={['#','https://www.google.com']} 
             />
             <Project 
-                cardClass='project__project-card alt' 
+                cardClass='project__project-card alt project__right' 
                 projectImgURL='https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg' 
                 techNameArr={['HTML5', 'CSS3', 'Redux']} 
                 projectTitle="Project Title 2" 

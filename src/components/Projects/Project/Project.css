@@ -257,3 +257,13 @@
   justify-content: flex-end;
   padding: 15px 10px 0px 10px;
 }
+
+.project__left{
+  animation-name: moveInleft;
+  animation-duration: 2s;
+}
+
+.project__right{
+    animation-name: moveInRight;
+    animation-duration: 2s;
+}

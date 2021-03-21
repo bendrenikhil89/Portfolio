@@ -144,3 +144,29 @@ section.about {
         width: 290px;
     }
 }
+
+/* .about__section-title p{
+    opacity: 0;
+    animation: moveInleft ease-in-out 2s forwards;
+}
+
+.about__row{
+    opacity: 0;
+    animation: moveInleft ease-in-out 2s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+}
+
+.skills-container{
+    opacity: 0;
+    animation: moveInleft ease-in-out 2s forwards;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -moz-animation-delay: 1s;
+} */
+
+/* .about__container, .skills-container{
+    opacity: 0;
+    animation: fadeIn ease 1s forwards;
+} */
